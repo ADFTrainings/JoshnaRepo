@@ -1,0 +1,9 @@
+{
+	"name": "JoshnaChanduADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e133df43-e3e0-4221-9830-efc0ca674128",
+		"tenantId": "781cfcce-2efa-4b49-9aeb-f060add4b6c9"
+	}
+}
