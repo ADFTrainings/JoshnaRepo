@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "Blob_Source",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_BLOB",
