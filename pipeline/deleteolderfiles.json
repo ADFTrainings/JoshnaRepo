@@ -13,6 +13,7 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
+				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
 						"referenceName": "deleteolderfiles",
@@ -25,7 +26,7 @@
 						"type": "AzureBlobStorageReadSettings",
 						"recursive": true,
 						"modifiedDatetimeEnd": {
-							"value": "@adddays(utcNow(),11)",
+							"value": "@adddays(utcNow(),10)",
 							"type": "Expression"
 						},
 						"enablePartitionDiscovery": false
