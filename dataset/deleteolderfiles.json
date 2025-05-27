@@ -1,14 +1,17 @@
 {
-	"name": "getlatestfile",
+	"name": "deleteolderfiles",
 	"properties": {
-		"parameters": {
-			"Filename": {
-				"type": "string"
-			}
+		"linkedServiceName": {
+			"referenceName": "LS_BLOB",
+			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "source"
+			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
